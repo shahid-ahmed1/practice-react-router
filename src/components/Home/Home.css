@@ -1,0 +1,25 @@
+.class{
+
+}
+.nav {
+   display: flex;
+   justify-content: center;
+}
+.nav a{
+   margin-right: 40px;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+}
+.user{
+  
+   border: 2px solid tomato;
+   padding: 15px;
+   border-radius: 15px;
+}
+.users{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 15px;
+}
